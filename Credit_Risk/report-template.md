@@ -11,11 +11,12 @@ The analysis is to review various data that includes loan_size, interest_rate, b
 The financial information are as detailed above, and the task is to predict credit score which means credit worthiness
 
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-The attemp it to predict the loan status agains all othee financial information provided
+The attemp it to predict the loan status agains all other financial information provided
 
 * Describe the stages of the machine learning process you went through as part of this analysis.
 
-data preprocess, train and test and predict
+data preprocess, train and test and predict. Because of the variability of x values scaling was important
+
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
 
 I used logistic regression method to predict
@@ -32,13 +33,13 @@ The accuracy score is 0.9924164259182832 and
 
 Results
 •	Accuracy:  0.9924
-•	Balanced Accuracy: 0.95205
+•	Balanced Accuracy: 0.99
 •	Precision
 o	Healthy: 1.00
 o	High-Risk: 0.87
 •	Recall
-o	Healthy: 0.99
-o	High-Risk: 0.94
+o	Healthy: 1.00
+o	High-Risk: 0.89
 
 
 ## Summary
